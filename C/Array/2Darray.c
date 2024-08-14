@@ -6,6 +6,8 @@ int main()
   printf("enter the array: ");
   for(i=0; i<3; i++){
     for(j=0; j<4; j++){
+
+        printf("ar[%d][%d]= ",i,j);
         scanf("%d",&ar[i][j]);
     }
   }
