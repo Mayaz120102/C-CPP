@@ -15,15 +15,13 @@ int main()
      printf("\n");
      printf("Enter The Number of Row & Column for A: ");
      scanf("%d %d",&r1,&c1);
-
-
-   printf("Enter The Number of Row & Column for B: ");
-   scanf("%d %d",&r2,&c2);
+     printf("Enter The Number of Row & Column for B: ");
+     scanf("%d %d",&r2,&c2);
 
    }
 
     printf("enter the elements of A: ");
-  printf("\n");
+    printf("\n");
 
   for(i=0; i<r1; i++){
     for(j=0; j<c1; j++){
